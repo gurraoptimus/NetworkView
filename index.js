@@ -45,4 +45,8 @@ var w = c.width = window.innerWidth,
 
     squareRange = opts.range * opts.range,
     squareAllowed = opts.allowedDist * opts.allowedDist,
-    mo
+    mostDistant = opts.depth + opts.range,
+    sinX = sinY = 0,
+    cosX = cosY = 0,
+
+    
