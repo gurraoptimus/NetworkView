@@ -3,3 +3,46 @@ var w = c.width = window.innerWidth,
     ctx = c.getContext("2D"),
     opts ={
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    squareRange = opts.range * opts.range,
+    squareAllowed = opts.allowedDist * opts.allowedDist,
+    mo
