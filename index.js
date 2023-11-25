@@ -2,4 +2,6 @@
 d3.select();
 d3.selectAll();
 
-d3.select("h1").style("color", "red");
+d3.select("h1").style("color", "red")
+.attr("class", "Heading")
+.text()
