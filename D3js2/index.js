@@ -32,7 +32,7 @@ var text=svg.selectAll("text")
         return d;
     })
 .attr("y", function(d, i){
-    return barHeight - d - 2;
+    return svgHeight - d - 2;
 })
 .attr("x", function(d, i){
     return barWidth * i;
