@@ -6,5 +6,5 @@ d3.select("body")
     .data(dataset)
     .enter()
     .append("p") // appends paragraph for each data element
-    //.text("D3 is awesome!!");
-    .text(fuction(d){return d;});
+    .text("D3 is awesome!!");
+    //.text(fuction(d){return d;});
