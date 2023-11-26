@@ -7,4 +7,4 @@ d3.select("body")
     .enter()
     .append("p") // appends paragraph for each data element
     //.text("D3 is awesome!!");
-    .text(fuction(d) {return d; });
+    .text(fuction(d){return d;});
