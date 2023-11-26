@@ -18,9 +18,16 @@ var barChart=svg.selectAll("rect")
     })
 .attr("height", function(d){
     return d;
-})
+    })
 .attr("width", barWidth-barPadding)
 .attr("transform", function(d,i){
     var translate=[barWidth * i, 0];
-    return "translate("+ translate+")"; 
+    return "translate("+ translate+")";
 });
+var text=svg.selectAll("text")
+    .data(dataset)
+    .enter()
+    .append("text")
+    .text(function(d){
+        return d;
+    })
