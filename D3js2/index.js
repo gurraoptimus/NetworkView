@@ -37,4 +37,4 @@ var text=svg.selectAll("text")
 .attr("x", function(d, i){
     return barWidth * i;
 })
-.attr("fill", #A64C38);
+.attr("fill", "#A64C38");
