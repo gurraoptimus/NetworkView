@@ -5,7 +5,7 @@ var svgWidth=500, svgHeight=300, barPadding=5;
 var barWidth=(svgWidth / dataset.length);
 
 
-var svg=d3.select("svg")
+var svg=d3.select('svg')
     .attr("width", svgWidth)
     .attr("height", svgHeight);
 
